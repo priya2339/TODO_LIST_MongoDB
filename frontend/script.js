@@ -6,7 +6,7 @@ const tasksCompleted = document.querySelector(".tasks-completed");
 const celebration = document.querySelector(".celebration");
 const tone = document.getElementById('tone');
 
-const API_URL = 'http://localhost:5001';
+const API_URL = 'https://todo-list-mongo-db-drab.vercel.app/';
 
 const fetchTodos = async () => {
     const response = await fetch(API_URL);
